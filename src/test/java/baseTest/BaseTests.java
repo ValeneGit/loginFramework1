@@ -36,7 +36,6 @@ public class BaseTests {
         homePage = new HomePage(driver);
 
     }
-
     //TAKES SCREENSHOTS AND SAVE TO DIRECTORY DOES NOT OVERRIDE
     //double click ITestResult , select Ctrl , click ITestResult again to open in read-only code
     //ITestResult = tests that either fail or pass in the code window when you execute
@@ -69,7 +68,6 @@ public class BaseTests {
             }
         }
     }
-
 
 //closes the browser and ends the session
     @AfterMethod()

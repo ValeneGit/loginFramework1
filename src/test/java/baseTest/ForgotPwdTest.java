@@ -16,7 +16,6 @@ public class ForgotPwdTest extends BaseTests {
         Assert.assertEquals(forgotPasswordPage.getErrorMsg(),"Internal Server Error");
     }
 
-
     @DataProvider()
     public Object[][] ForgotPasswordData(){
         Object[][] data = new Object[4][3];
