@@ -1,6 +1,7 @@
 package baseTest;
 
-import org.junit.Assert;
+
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.ForgotPasswordPage;
@@ -27,5 +28,4 @@ public class ForgotPwdTest extends BaseTests {
 
         return data;
     }
-
 }
