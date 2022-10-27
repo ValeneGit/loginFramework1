@@ -25,7 +25,7 @@ public class BaseTests {
     public void setup() {
         //do not see the browser windows whilst tests are executing/running
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
 
         //WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");

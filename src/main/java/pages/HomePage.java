@@ -27,4 +27,12 @@ public class HomePage {
         clickLinkText(linkText);
         return new ForgotPasswordPage(driver);
     }
+
+    //click on the drag and drop linktext
+    public DragAndDropPage ClickOnDragAndDrop(String linktext){
+        driver.findElement(By.linkText(linktext)).click();
+        return new DragAndDropPage(driver);
+
+    }
+
 }
